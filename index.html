@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>QKabel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/owl.theme.default.min.css">
+    
+    
+</head>
+
+
+<body>
+   <header class="header">
+        <div class="header1">
+            <!--------block_menu-------->
+            <div class="header-menu">
+                <!--logo-->
+                <div class="header-logo">
+                    <a href="#" class="header-logo-link">
+                        <img src="/assets/img/svg/logo.svg" alt="lgo">
+                    </a>
+                </div>
+                <!--list-->
+                <div class="header-list">
+                    <ul class="list-info">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Доставка и опалата</a></li>
+                    </ul>
+                </div>
+                <!--contact-->
+                <div class="header-info_1">
+
+                    <div class="contact">
+                        <div class="mail">
+                            <a href="#">info@anturium.net</a>
+                        </div>
+                        <div class="tele">
+                            <a href="#">8 495 151-54-18</a>
+                        </div>
+                    </div>
+
+                    <a href="/cart.html" target="_blank" class="basket">
+                        <img src="/assets/img/svg/Basket.svg" alt="bskt">
+                    </a>
+                </div>
+            </div>
+            <!--button-->
+            <div class="js-button">
+                <div class="header-info_2">
+                    <div class="search">
+                        <button class="btn_info_1">Поиск по сайту</button>
+                        <button class="btn_info">найти</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!--------block_text_1-------->
+            <div class="header-text_block">
+                <div class="text_1">
+                    <h2>Производственно-коммерческая фирма АНТУРИУМ</h2>
+                </div>
+                <div class="text_2">
+                    <h1>ПОСТАВКИ КАБЕЛЯ<br>
+                        ПО ВСЕЙ РОССИИ</h1>
+                </div>
+                <div class="text_3">
+                    <p>Отправьте нам файл со списоком необходимых вам кабелей,<br>
+                        менеджер ответит вам в течение 30 минут</p>
+                </div>
+            </div>
+
+            <!--------block_buttons-------->
+            <div class="header-buttons">
+                <div class="button_1">
+                    <button>загрузка файла</button>
+                </div>
+                <div class="button_2">
+                    <button>каталог</button>
+                </div>
+            </div>
+
+            <!--------block_text_2-------->
+            <div class="header-text_block_2">
+                <p>Наши партнёры</p>
+            </div>
+
+
+            
+        </div>
+        
+
+
+        <!--------block_slide_partners-------->
+        <div class="header-partners_block">
+            <div class="partners_block">
+                <div class="owl-carousel owl-theme">
+                    <div class="item1">
+                        <img src="/assets/img/svg/LUK_OIL_Logo.svg" alt="img">
+                    </div>
+                    <div class="item2">
+                        <img src="/assets/img/svg/Rosneft_Logo.svg" alt="img">
+                    </div>
+                    <div class="item3">
+                        <img src="/assets/img/svg/Novatek_Logo.svg" alt="img">
+                    </div>
+                    <div class="item4">
+                        <img src="/assets/img/svg/Sibur_Holding_Logo.svg" alt="img">
+                    </div>
+                    <div class="item5">
+                        <img src="/assets/img/svg/interrao_Logo.svg" alt="img">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+   </header>
+
+
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+        crossorigin="anonymous"></script>
+    <script src="/assets/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            nav: true,
+            margin:100,
+            loop:true,
+            autoWidth:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1200:{
+                    items:5
+                }
+            }
+        });
+    });
+    </script>
+
+
+</body>
+</html>
